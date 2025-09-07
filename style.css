@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+  background: #f0f2f5;
+}
+
+/* Dark mode */
+.dark-mode {
+  background: #222;
+  color: #fff;
+}
+
+/* Card style for each part */
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.dark-mode .card {
+  background: #333;
+  color: #eee;
+}
+
+/* Buttons */
+button {
+  margin: 10px 0;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background: #007bff;
+  color: white;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Inputs */
+input {
+  margin: 8px 0;
+  padding: 8px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Form messages */
+#formMessage {
+  margin-top: 10px;
+  font-weight: bold;
+}
